@@ -49,19 +49,54 @@ nav ul li a {
 
 nav ul li a:hover,
 nav ul li a.highlight {
-    background: rgb(100, 196, 240);
+    background: blue;
 }
 
 .s1 {
-    width: 95%;
-    padding: 0px 5px;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.centertext {
     margin: auto;
-    border: solid;
-    color: white;
-    position: sticky;
-    top: 140px;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-.s2 {
-
+#left, #center, #right {
+    margin-top: 30px;
+    width: 30%;
+    height: 500px;
 }
+
+#left {
+    margin-left: 30px;
+    float: left;
+}
+
+#center {
+    margin-left: 45px;
+    margin-right: 45px;
+    float: left ;
+}
+
+#right {
+    margin-right: 30px;
+    float: right;
+}
+
+p {
+    text-align: justify;
+    letter-spacing: 1px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 17px;
+    line-height: 20px;
+}
+.hero {
+    clear: both;
+}
+
+
+
