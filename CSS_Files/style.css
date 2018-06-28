@@ -21,7 +21,7 @@ nav {
     margin: auto;
     width: 95%;
     height: 50px;
-    padding: 0px 10px;
+    padding: 0px 10px 10px 10px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background: rgb(0, 0, 0);
     color: white;
@@ -32,7 +32,7 @@ nav {
 nav ul {
     display: flex;
     margin: auto;
-    padding: 10px 25px;
+    padding: 10px 10px 0px 10px;
     float: right;
 }
 
@@ -42,14 +42,14 @@ nav ul li {
 
 nav ul li a {
     display: block;
-    padding: 0px 20px 20px 50px;
+    padding: 10px 30px 10px 30px;
     text-decoration: none;
     color: white;
 }
 
 nav ul li a:hover,
 nav ul li a.highlight {
-    background: #f00;
+    background: rgb(100, 196, 240);
 }
 
 .s1 {
