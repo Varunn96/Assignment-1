@@ -1,27 +1,65 @@
 <!doctype html>
+<!-- html starts -->
 <html>
+
+<!-- Defining Title of Webpage and linking html file to stylesheets -->
+<!-- head starts -->
 <head>
     <meta charset="utf-8" />
     <title> HYBRID | Homepage </title>
     <link rel="stylesheet" href="CSS_FILES/style.css" type="text/css" />
 </head>
+<!-- head ends -->
+
+<!-- Defining the content of the Webpage (Homepage) -->
+<!-- Body starts -->
 <body>
 
+    <!-- Name of Webpage and Description -->
+    <!-- header start -->
     <header>
         <h1> HYBRID - All about Hybrid Technology </h1>
     </header>
+    <!-- header ends -->
 
+    <!-- Navigation Bar using unordered list -->
+    <!-- nav start -->
     <nav>
         <ul>
             <li> <a href="#" class="highlight">Home</a> </li>
-            <li> <a href="page3.html">Technology</a> </li>
-            <li> <a href="#">Vehicles</a> </li>
+            <li> <a href="#">Technology</a> </li>
+            <li> <a href="page3.html">Vehicles</a> </li>
             <li> <a href="#">Future</a> </li>
-            <li> <a href="page2.html">Contact Us</a> </li>
+            <li> <a href="page2.html">Subscribe</a> </li>
         </ul>
     </nav>
+    <!-- nav ends -->
 
+    <!-- Defining Hero Unit of Webpage -->
+    <!-- div 'hero' starts -->
+    <div id="hero">
+
+        <!-- Title -->
+        <h2> Hybrid Technology - A Transition into the Future </h2> 
+        <img src="Images/porsche.jpg" height: "80%" width= "100%" alt="Hybrid Powertrain" />
+        <!-- Description -->
+        <p> 
+            All you need to know about Hybrid Tech and its numerous areas of applications.
+            Get a comprehensive introduction to design, functioning and various components of a hybrid unit. 
+            Look into various road going machines which utilize this tech to its full capabilities. Get an insight into how Hybrid Tech
+            bridges the gap between the present and the full electric future.
+        </p>
+        <p>
+            Sign up to get the latest newsletters and recieve occasional e-mails about latest advances in hybrid tech.
+        </p>
+    </div>
+    <!-- div 'hero' ends -->
+
+    <hr />
+    
+    <!-- Article on Homepage -->
     <section class="s1">
+        <!-- Desription of article -->
         <article>
             <h1> <em>The HOLY TRINITY</em> - Ferrari <em>Laferrai</em>, McLaren <em>P1</em> and Porsche <em>918</em> </h1>
             <p class="centertext"> The three beasts which represent the pinnacle of Hybrid Technology are often collectively
@@ -29,80 +67,64 @@
         </article>
     </section>
 
+    <!-- 3 column layout using sections -->
+    <!-- Image, title and description for each column. 
+         ID respectively left, center and right -->
+    <!-- div 'threeca' starts -->
     <div id="threeca">
-        <section class="s2"> 
+        <section> 
             <article id="left">
                 <img src="Images/laferrari.jpg" height: "90%" width="100%" alt="Ferrari Laferrari Image" />
                 <h2> <em>The Ferrari Laferrari</em> </h2>
                 <p> The <strong>LaFerrari</strong> is a limited production hybrid sports car built by Ferrari. 
                     LaFerrari literally means "The Ferrari" in Italian , in this context in 
-                    the sense that it is the "definitive" Ferrari. On 3 December 2016, a LaFerrari
-                     was auctioned off for $7 million (£5,743,500.00) making this car "the most
-                      valuable 21st century automobile ever sold at auction". Only 499 units 
-                      have been built, and each cost more than 1 million US dollars. The LaFerrari
-                       is the first mild hybrid from Ferrari, providing the highest power output of
-                        any Ferrari.</p>
+                    the sense that it is the "definitive" Ferrari. Only 499 units 
+                    have been built, and each cost more than 1 million US dollars. The LaFerrari
+                    is the first mild hybrid from Ferrari, providing the highest power output of
+                    any Ferrari.</p>
             </article>
         </section>
 
-        <section class="s3"> 
+        <section> 
             <article id="center">
                 <img src="Images/mclaren_p1.jpg" height: "90%" width="100%" alt="McLaren P1 Image" />
                 <h2> <em>The Mclaren P1</em> </h2>
-                <p> <strong>McLaren</strong>’s £866,000, 903bhp hybrid hypercar that promises to be the most involving
-                     car to drive on road and track. The heart is the familiar 3.8-litre V8 biturbo 
-                     that sees duty in the 12C and 650S, but with bigger turbos to produce 727bhp and
-                      531lb ft. The electric bit pushes out 176bhp and 192lb ft (twice the KERS system
-                       on a 2013 F1 car), and handily fills in the torque hole left by turbo lag. It
-                        all drives exclusively to the rear wheels via McLaren’s seven-speed twin-clutch,
-                         giving 0-62mph in 2.8secs and a quarter mile in 9.8secs @ 152mph. </p>
+                <p> <strong>McLaren</strong>’s 903bhp hybrid hypercar that promises to be the most involving
+                    car to drive on road and track. The heart is a 3.8-litre V8 biturbo, producing 727bhp. The electric bit pushes out 176bhp and 192lb ft, and handily fills in the torque hole left by turbo lag. It
+                    all drives exclusively to the rear wheels via McLaren’s seven-speed twin-clutch,
+                    giving 0-62mph in 2.8secs. </p>
             </article>
         </section>
 
-        <section class="s4"> 
+        <section> 
             <article id="right">
                 <img src="Images/porsche_911.jpg" height: "100%" width="100%" alt="Porsche 918 Image" />
                 <h2> <em>The Porsche 918</em> </h2>
                 <p> The <strong>Porsche 918</strong> is a mid-engined plug-in hybrid sports car manufactured by
-                     German automobile manufacturer Porsche. The Spyder is powered by a naturally 
-                     aspirated 4.6-litre V8 engine, developing 616 PS (608 bhp; 453 kW), with two electric
-                      motors delivering an additional 283 PS (279 bhp; 208 kW) for a combined output of 899
-                       PS (887 bhp; 661 kW). The 918 Spyder's 6.8 kWh lithium-ion battery pack delivers an
-                    all-electric range of 19 km (12 mi) under the US Environmental Protection Agency's 
-                    five-cycle tests.</p>
+                    German automobile manufacturer Porsche. It is powered by a naturally 
+                    aspirated 4.6-litre V8 engine, developing 608 bhp, with two electric
+                    motors delivering an additional 279 bhp for a combined output of 887 bhp. The 918 Spyder's 6.8 kWh lithium-ion battery pack delivers an
+                    all-electric range of 19 km.</p>
             </article>
         </section>
     </div>
-    <br />
+    <!-- div 'threeca' ends -->
+    
     <hr />
-    <div id="hero">
-        <h2> Hybrid Technology - A Transition into the Future </h2> 
-        <img src="Images/hybrid.jpg" height: "80%" width= "55%" alt="Hybrid Powertrain" />
-        <p> All you need to know about Hybrid Tech and its numerous areas of applications.
-            Get a comprehensive introduction to design, functioning and various components of a hybrid unit. 
-            Look into various road going machines which utilize this tech to its full capabilities. Get an insight into how Hybrid Tech
-            bridges the gap between the present and the full electric future.
-        </p>
-    </div>
-    <br />
-    <br />
-
-    <hr />
-
-    <br />
-    <br />
-
-
-      
+    
+    <!-- Defining Footer and Social Medio hyperlinks -->
+    <!-- footer starts -->
     <footer>
-        <a href="#"><img src="Images/fb.jpg" height="50px" width="50px" alt="Facebook" /></a> </li>
-        <a href="#"><img src="Images/insta.jpg" height="50px" width="50px" alt="Instagram" /></a> </li>
-        <a href="#"><img src="Images/gplus.jpg" height="50px" width="50px" alt="Google Plus" /></a> </li>
-        <a href="#"><img src="Images/twitter.jpg" height="50px" width="50px" alt="Twitter" /></a> </li>
-        <a href="#"><img src="Images/yt.jpg" height="50px" width="50px" alt="Youtube" /></a> </li>
+        <h3> Follow Us </h3>
+        <a href="#"><img src="Images/fb.jpg" alt="Facebook" /></a> </li>
+        <a href="#"><img src="Images/insta.jpg" alt="Instagram" /></a> </li>
+        <a href="#"><img src="Images/gplus.jpg" alt="Google Plus" /></a> </li>
+        <a href="#"><img src="Images/twitter.jpg" alt="Twitter" /></a> </li>
+        <a href="#"><img src="Images/yt.jpg" /></a> </li>
     </footer>
-
-    <br />
+    <!-- footer ends -->
 
 </body>
+<!-- body ends -->
 </html>
+<!-- html ends -->
