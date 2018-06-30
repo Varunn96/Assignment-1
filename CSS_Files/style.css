@@ -85,7 +85,7 @@ p {
 
 /*article section start*/
 #articlesection {         /*defining height of article section*/
-    height:550px;
+    height:580px;
 }
 
 .s1 {
@@ -178,8 +178,8 @@ footer {
     margin: auto;
     height: 80px;
     padding: 10px 40px 10px 10px;
-    background: rgb(0, 0, 0);
-    color: white;
+    background-color: white;
+    color:black;
 }
 
 footer a {
